@@ -1,0 +1,32 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend_dist/
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local Claude Code overrides (per-developer)
+.claude/settings.local.json
+
+# Environment files (never commit secrets)
+.env
+.env.*
+
+# Instance state
+data/*.db
+data/*.db-journal

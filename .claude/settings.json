@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pytest)",
+      "Bash(pytest *)",
+      "Bash(uvicorn app.main:app *)",
+      "Bash(python -m venv *)",
+      "Bash(python3 -m venv *)",
+      "Bash(pip install *)",
+      "Bash(ruff *)",
+      "Bash(npm install)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(npx tsc *)",
+      "Bash(python3 -m json.tool)",
+      "Bash(curl -fsS http://127.0.0.1:8001/*)",
+      "Bash(curl -fsS http://127.0.0.1:5173/*)",
+      "Bash(curl -fsS -X POST http://127.0.0.1:8001/api/*)",
+      "Bash(curl -fsS -X POST http://127.0.0.1:5173/api/*)",
+      "Bash(docker build *)",
+      "Bash(docker run --rm *)",
+      "Bash(docker stop *)",
+      "Bash(git status)",
+      "Bash(git diff)",
+      "Bash(git diff *)",
+      "Bash(git log)",
+      "Bash(git log *)",
+      "Bash(git add *)"
+    ]
+  }
+}

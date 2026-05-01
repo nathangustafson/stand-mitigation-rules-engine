@@ -1,0 +1,25 @@
+# Local Python state
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Node state
+frontend/node_modules/
+frontend/dist/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Local Claude Code state
+.claude/settings.local.json
+
+# Instance state — must NOT bake into the image, otherwise new containers
+# inherit stale data and seed_demo_data skips by nickname against rows that
+# no longer reflect the current seed.
+data/app.db
+data/app.db-journal
